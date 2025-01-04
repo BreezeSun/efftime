@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
       name='efftime',
-      version='1.0.3',
+      version='1.0.5',
       author='BreezeSun',
       description='A check Program run efficiency.',
       packages=find_packages(),

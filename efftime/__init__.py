@@ -1,3 +1,3 @@
-from .efftime import start, end
-__all__ = ['start', 'end']
+from .efftime import start, end, stop
+__all__ = ['start', 'end', 'stop']
 

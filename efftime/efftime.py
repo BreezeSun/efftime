@@ -4,9 +4,9 @@ global_efftime = time.time()
 step_efftime = time.time()
 
 def start():
-    global global_efftime
+    global global_efftime, step_efftime
     global_efftime = time.time()
-
+    step_efftime = time.time()
 
 def end(step=''):
     global global_efftime, step_efftime
